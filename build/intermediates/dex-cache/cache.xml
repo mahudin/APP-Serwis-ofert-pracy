@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="F:\AndroidSDKdata\.android\build-cache\1cb89a7885aeb0360c54738a10b8514b9abbba37\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="254c6e49fb9d776a8c29f05bffa89b5fbe0e8e04">
+        <dex dex="F:\AndroidProjects\CookLearningGame\app\build\intermediates\pre-dexed\debug\classes_8569abfcaed02f8c0f8b7ea43c985ac91befd73b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\AndroidProjects\CookLearningGame\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fe705551e1cfdf02f055209f1e68816fb58afddb">
+        <dex dex="F:\AndroidProjects\CookLearningGame\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_4a9cf8c70f277abb38dfd1cb20334c09465b891a\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\AndroidSDKdata\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="F:\AndroidProjects\CookLearningGame\app\build\intermediates\pre-dexed\debug\okhttp-3.4.1_630bebaec5d1d6381ca065d6ce2954cb3573a6f2.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\AndroidProjects\CookLearningGame\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="F:\AndroidProjects\CookLearningGame\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_545857f8016c8041895a9a82d7f5e1d0e6a41f88\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\AndroidSDKdata\caches\modules-2\files-2.1\org.jsoup\jsoup\1.10.3\b842f960942503cf1abbcc8c173a7f2c19d43726\jsoup-1.10.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b842f960942503cf1abbcc8c173a7f2c19d43726">
+        <dex dex="F:\AndroidProjects\CookLearningGame\app\build\intermediates\pre-dexed\debug\jsoup-1.10.3_c41664f4d5b0d8058df5f387bf3368527a6a679c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\AndroidSDKdata\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="F:\AndroidProjects\CookLearningGame\app\build\intermediates\pre-dexed\debug\okio-1.9.0_9348e42a7893c5b6afd7917e9a20614af8d7db82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\AndroidSDKdata\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="F:\AndroidProjects\CookLearningGame\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_e1f068d24d737e7f6dc4bc5e1773635eaf0e5c01.jar" />
+    </item>
+
+</items>
