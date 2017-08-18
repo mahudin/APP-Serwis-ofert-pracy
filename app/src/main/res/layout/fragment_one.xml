@@ -1,0 +1,55 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.root.cooklearninggame.Fragments.OneFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+
+        android:layout_width="0dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="240dp">
+            <!--com.fmsirvent.ParallaxEverywhere.PEWImageView -->
+            <com.fmsirvent.ParallaxEverywhere.PEWImageView
+                android:id="@+id/toper_image"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="top"
+                android:scaleType="centerCrop" />
+
+
+            <TextView
+                android:id="@+id/desc_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="2.21"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="TextView"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_below="@+id/toper_image"
+                android:layout_alignStart="@+id/toper_image"
+                android:layout_marginTop="16dp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

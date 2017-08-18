@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+			<ListPreference
+				android:key="gumtree_category"
+				android:title="@string/title_choose_category"
+				android:summary="@string/choose_category"
+				android:entries="@array/gumtree_categories"
+				android:entryValues="@array/gumtree_categories"
+				android:defaultValue="@string/default_value_gumtree_category"
+				android:positiveButtonText = "OK"
+				android:negativeButtonText="Cancel"
+				android:dialogTitle="@string/choose_category" />
+			<ListPreference
+				android:defaultValue="@string/default_value_services_scrapped"
+				android:key="choose_service"
+				android:title="@string/title_services_scrapped"
+				android:summary="@string/choose_service"
+
+				android:positiveButtonText = "OK"
+				android:negativeButtonText="Cancel"
+				android:entries="@array/services_scrapped"
+				android:entryValues="@array/services_scrapped"
+				android:dialogTitle="@string/choose_service" />
+			<EditTextPreference
+				android:key="default_sms_message"
+				android:title="@string/title_message"
+				android:defaultValue="@string/default_message"
+				android:inputType="textMultiLine|textCapWords"/>
+	</PreferenceScreen>

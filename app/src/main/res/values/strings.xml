@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Serwis ofert pracy</string>
+    <string name="action_create_order">Złóż zamówienie</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="action_share">Udostępnij wynik</string>
+    <string name="action_update">Pobierz oferty</string>
+    <string name="action_delete">Usuń oferty</string>
+    <string name="open_drawer">Otwórz szuflade</string>
+    <string name="close_drawer">Zamknij szuflade</string>
+    <string name="search_label">Szukaj oferty pracy</string>
+    <string name="search_hint">Szukaj</string>
+    <string name="title_top">Fragment TopFragment</string>
+    <string name="method_prepared">:</string>
+    <string-array name="titles">
+        <item>Oferty</item>
+        <item>Konfiguracja</item>
+        <!--item>Statystyki</item-->
+        <item>Autor</item>
+    </string-array>
+    <string-array name="images">
+        <item>Oferty</item>
+        <item>Konfiguracja</item>
+        <!--item>Statystyki</item-->
+        <item>Autor</item>
+    </string-array>
+    <string name="done">Zakończone zadanie</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment2">Bidet</string>
+    <string name="recipe_detail_left_tab">Przepis</string>
+    <string name="recipe_detail_center_tab">Wykonanie</string>
+    <string name="recipe_detail_right_tab">Dodatkowe</string>
+    <string name="credits">Aplikacja wykonana przez <b>Michała Hudaszka</b>, studenta Informatyki na UP im.KEN w Krakowie w 2017 r. <br /><br /> Wszelkie niedogodności/zastrzeżenia proszę kierować na adres: <b>mahuda94@interia.pl</b> </string>
+    <string name="title_choose_category">Kategorie pobieranych ofert pracy</string>
+    <string name="choose_category">Wybierz kategorie do scrapowania</string>
+    <string name="choose_service">Wybierz strony z których chcesz pobrać oferty</string>
+    <string name="title_services_scrapped">Strony z ofertami pracy do pobrania</string>
+    <string-array name="services_scrapped">
+        <item>Gumtree</item>
+    </string-array>
+    <string-array name="gumtree_categories">
+        <item>Graficy i webdesign</item>
+        <item>Inżynierowie technicy i architekci</item>
+        <item>Praca inne</item>
+    </string-array>
+    <string name="default_value_gumtree_category">Graficy i webdesign</string>
+    <string name="default_value_services_scrapped">Gumtree</string>
+    <string name="default_message">Dzień dobry ! Jestem zainteresowany Państwa ofertą pracy.</string>
+    <string name="title_message">Wiadomość przy aplikowaniu SMS-em</string>
+</resources>

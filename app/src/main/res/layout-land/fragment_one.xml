@@ -1,0 +1,71 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.root.cooklearninggame.Fragments.OneFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+
+
+
+
+
+
+    <ScrollView
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:orientation="vertical">
+
+            <com.fmsirvent.ParallaxEverywhere.PEWImageView
+                android:id="@+id/toper_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/separator"
+                android:layout_gravity="top"
+                android:scaleType="centerCrop"
+                android:layout_alignParentEnd="true" />
+
+            <View
+                android:id="@+id/separator"
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:background="#ffffff" />
+
+
+            <TextView
+                android:id="@+id/desc_text"
+                android:layout_width="576dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="59dp"
+
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="TextView"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_below="@+id/toper_image"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
